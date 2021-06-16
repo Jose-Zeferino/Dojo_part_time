@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    width: 50em;
+    height: 44em;
+    background-color: rgba(190, 178, 123, 0.517);
+    padding: .5em;
+    margin: 2em 0em 2em 15em;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-bottom: .5em;
+}
+.mainimgs{
+    justify-content: center;
+}
+.topimg{
+    height: 4.2em;
+    display: inline-block;
+    background-color: white;
+    border: none;
+}
+img{
+    width: 8.5em;
+    height: 8.5em;
+    border: 1px black solid;
+    padding: 5px;
+}
+#row1,#row2,#row3,#row4{
+    padding-left: 3em;
+    
+}
+.odd{
+    outline: 2px solid black;
+    border: .5em solid skyblue;
+    background-color: white;
+    margin: .2em;
+    height: 137.5px;
+}
+.even{
+    background-color: rgb(255, 71, 111);
+    border: 2px solid black;
+    height: 141px;
+    margin: .1em;
+    padding: 9px;
+}
