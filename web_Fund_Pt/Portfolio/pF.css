@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+}
+#holder{
+    width: 2000px;
+    height: 2000px;
+}
+main{
+    background-image: radial-gradient(circle,  rgb(238, 177, 238), rebeccapurple);
+    width: 1020px;
+    height: 1090px;
+}
+header{
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    align-items: center;
+    width: 1020px;
+    height: 50px;
+}
+h1{
+    font-family: 'Great Vibes', cursive;
+    margin-left: 20px;
+}
+h2{
+    margin-left: 450px;
+}
+#top{
+    display: flex;
+}
+#profile{
+    margin: 30px 0 0 20px;
+    outline: 8px solid rgb(223, 221, 221);
+    width: 400px;
+    height: 320px;
+}
+#about{
+    border: .5px solid black;
+    background-image: linear-gradient(to right,rgb(231, 218, 231) , rgb(207, 181, 207), rgb(235, 171, 235));
+    margin: 23px 0 0 20px;
+    width: 560px;
+    height: 336px;
+}
+h3{
+    background-image: linear-gradient(gray, rgb(235, 227, 227), gray);
+
+    margin-bottom: 10px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    font-weight: bolder;
+}
+a{
+    margin: 10px;
+}
+#bottom{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+.three{
+    width: 300px;
+}
+#lamode{
+    width: 300px;
+    height: 590px;
+    background-color: rgb(190, 170, 190);
+}
+#FamilyContacts{
+    width: 300px;
+    height: 590px;
+    background-color: rgb(190, 170, 190);
+}
+#fiveEleven{
+    width: 300px;
+    height: 590px;
+    background-color: rgb(190, 170, 190);
+}
+h4{
+    background-image: linear-gradient(gray, rgb(235, 227, 227), gray); 
+}
+.one{
+    text-align: justify;
+}
+#left{
+    margin-bottom: 83px;
+}
+#middle{
+    margin-bottom: 47px;
+}
+
+h5{
+    background-image: linear-gradient(gray, rgb(235, 227, 227), gray); 
+}
+.icon{
+    width: 45px;
+    margin: 5px;
+}
+button{
+    width: 100px;
+    display: block;
+    background-color: green;
+    border-radius: 13px;
+    border: 1px solid black;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.301);
+    margin-left: 105px;
+    
+}
+#leftbutton{
+    width: 50px;
+    margin-left: 110px;
+}
+#rightbutton{
+    width: 70px;
+}
+footer{
+    width: 1020px;
+    background-color: white;
+    text-align: center;
+}
+.footericon{
+    width: 20px;
+}
