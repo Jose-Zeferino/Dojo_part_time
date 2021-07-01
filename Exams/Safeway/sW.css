@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: .5px red dotted; */
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-family: 'IM Fell Double Pica SC', serif;
+    margin: 10px 0 10px 40px;
+    width: 98%;
+}
+section{
+    border-top: 1px solid black;
+    width: 95%;
+    margin-bottom: 10px;
+    display: flex;
+}
+#banner{
+    margin: 18px 30px 0 50px;
+    width: 250px;
+    height: 50px;
+}
+#threeicons{
+    width: 250px;
+    height: 20px;
+    font-size: 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.385);
+    border-left: 1px solid rgba(0, 0, 0, 0.385);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.385);
+    padding: 3px;
+}
+.storeoptionsleft{
+    display: inline-block;
+    height: 20px;
+    border-left: 1px solid rgba(0, 0, 0, 0.385);
+    padding-left: 5px;
+}
+.truckleft{
+    display: inline-block;
+    height: 20px;
+    /* border-left: 1px solid rgba(0, 0, 0, 0.385); */
+    padding-left: 5px;
+}
+.storeoptionsright{
+    display: inline-block;
+    height: 20px;
+    font-size: 15px;
+    vertical-align: text-top;
+}
+h2{
+    font-size: 15px;
+    text-align: center;
+}
+.bold{
+    font-weight: bold;
+}
+.red{
+    color: red;
+    font-weight: bold;
+}
+.storeoptions{
+    display: inline-block;
+    height: 20px;
+}
+#search{
+    text-align: end;
+    margin: 20px 30px 0 200px;
+    padding-left: 100px;
+}
+#push{
+    margin-top: 20px;
+}
+.searchoptions{
+    font-weight: bold;
+    display: inline-block;
+    height: 20px;
+}
+#register{
+    display: inline-block;
+}
+input{
+    padding: 3px;
+    border: 1px solid black;
+}
+::placeholder {
+    font-size: 8px;
+}
+#rednav{
+    width: 95%;
+    height: 50px;
+    background-color: red;
+}
+nav{
+    padding-left: 17%;
+}
+.nav,a{
+    padding: .7%;
+    justify-content: center;
+    align-content: center;
+    display: inline-block;
+    color: white;
+    font-size: xx-large;
+    text-decoration: none;
+    border-left: 1px solid white;
+}
+.navright{
+    padding: .7%;
+    justify-content: center;
+    align-content: center;
+    display: inline-block;
+    color: white;
+    font-size: xx-large;
+    text-decoration: none;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+#onep{
+    font-family: 'IM Fell Double Pica SC', serif;
+    display: block;
+    font-size: 40px;
+    color: rgb(83, 78, 78);
+    margin: 10px 0 0 15px;
+}
+article{
+    margin-top: 1%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.coupon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 270px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.159);
+}
+.coupon, a{
+    font-size: 17px;
+    color: black;
+}
+.underline{
+    text-decoration: underline;
+}
+.couponimg{
+    margin: 10px 0 15px 0;
+    width: 25%;
+}
+.couponimgright{
+    margin: 10px 0 15px 0;
+    width: 80px;
+    height: 41px;
+}
+h3{
+    font-family: 'IM Fell Double Pica SC', serif;
+    margin-bottom: 30px;
+}
+.picture{
+    
+    width: 90%;
+    margin-top: 2%;
+    display:flex
+}
+.wrapped{
+    margin-left: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.248);
+    border-radius: 5px;
+    padding: 5px;
+}
+.advertisementleft{
+    width: 850px;
+    height: 270px;
+}
+.advertisementright{
+    width: 252px;
+    height: 108px;
+    justify-content: space-between;
+}
+h4{
+    margin: 5px;
+    align-items: center;
+    font-size: 1.5em;
+}
+button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: .5em;
+  }
+

@@ -50,6 +50,7 @@ h3{
     background-image: linear-gradient(gray, rgb(235, 227, 227), gray);
 
     margin-bottom: 10px;
+    padding-left: 10px;
 }
 p{
     font-family: 'Roboto', sans-serif;
@@ -84,6 +85,7 @@ a{
 }
 h4{
     background-image: linear-gradient(gray, rgb(235, 227, 227), gray); 
+    padding-left: 10px;
 }
 .one{
     text-align: justify;
@@ -97,6 +99,7 @@ h4{
 
 h5{
     background-image: linear-gradient(gray, rgb(235, 227, 227), gray); 
+    padding-left: 10px;
 }
 .icon{
     width: 45px;
@@ -126,4 +129,7 @@ footer{
 }
 .footericon{
     width: 20px;
+}
+.decor{
+    text-decoration: none;
 }
